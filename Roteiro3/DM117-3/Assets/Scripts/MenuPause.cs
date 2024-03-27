@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -39,15 +40,9 @@ public class MenuPause : MonoBehaviour
         print("cena carregada: " + nomeScene);
         SceneManager.LoadScene(nomeScene);
     }
-    
-    public void Test(bool test)
-    {
-        print("Teste");
-    }
 
     void Start()
     {
-        // pause = false;
         SetMenuPause(false);
     }
 }
