@@ -10,7 +10,7 @@ public class GameOverController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _levelControle.CaerrgaLevel("TelaVitoria);
+        _levelControle.CaerrgaLevel("TelaVitoria");
     }
 
     // Start is called before the first frame update
