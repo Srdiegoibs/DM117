@@ -19,7 +19,8 @@ public class ControleCamera : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        Console.Out.WriteLine(alvo.position);
+        // print("valor de alvo.position: " + alvo.position);
+        // Console.Out.WriteLine(alvo.position);
         if (alvo != null)
         {
             // Altera a posicao da camera
